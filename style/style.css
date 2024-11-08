@@ -5,3 +5,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/header-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    text-align: center;
+    color: whitesmoke;
+}
+.header-content h2{
+    font-size: 2rem;
+}
+.line{
+    width: 150px;
+    height: 5px;
+    background: rgb(251, 2, 52);
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.header-content h1{
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 8px 15px;
+    background-color: rgb(244, 2, 51);
+    border-radius: 25px;
+    color: whitesmoke;
+}
